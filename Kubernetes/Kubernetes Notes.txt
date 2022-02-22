@@ -1,0 +1,20 @@
+1. Kubernetes is an open-source container orchestration tool or system that is used to automate tasks such as the management, monitoring, scaling, and deployment of containerized applications.
+
+2. Orchestration refers to the integration of multiple services that allows them to automate processes or synchronize information in a timely fashion. 
+
+3. Say, for example, you have six or seven microservices for an application to run. If you place them in separate containers, this would inevitably create obstacles for communication. 
+
+4. Orchestration would help in such a situation by enabling all services in individual containers to work seamlessly to accomplish a single goal. 
+
+5. Benefits:
+
+--->Kubernetes supports a wide variety of workloads, programming languages and frameworks, enabling stateless, stateful, and data-processing workloads.
+
+---> High availability  can be achieved using k8s.
+
+--->Kubernetes manages various clusters at the same time.
+ 
+--->Kubernetes self-monitors the health of nodes and containers. 
+
+--->With Kubernetes, users can scale resources not only vertically but also horizontally that too easily and quickly.
+ 
