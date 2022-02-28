@@ -17,4 +17,17 @@
 --->Kubernetes self-monitors the health of nodes and containers. 
 
 --->With Kubernetes, users can scale resources not only vertically but also horizontally that too easily and quickly.
- 
+
+6.1 A replication controller is referred to as RC in short. It is a wrapper on a pod.
+This provides additional functionality to the pods, which offers replicas. 
+--->Replica Set, on the other hand, is referred to as rs in short. It is told as the next-generation replication controller. 
+
+--->This kind of support has some selector types and supports the equality-based and the set-based selectors. 
+
+--->Replica Set is same as Replication Controller. The only difference is RS is good in management than RC
+
+--->Equality based selector is based on an operator where it is more computer-readable. 
+
+--->The set-based selector is an advanced concept and more human-readable, and can handle more operation easily.
+
+--->Set based searching is the newer approach used by Replica Set. 
