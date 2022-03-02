@@ -1,16 +1,16 @@
-1. Kubernetes is an open-source container orchestration tool or system that is used to automate tasks such as the 
+🔰 1. Kubernetes is an open-source container orchestration tool or system that is used to automate tasks such as the 
 management, monitoring, scaling, and deployment of containerized applications.
 
-2. Orchestration refers to the integration of multiple services that allows them to 
+🔰 2. Orchestration refers to the integration of multiple services that allows them to 
 automate processes or synchronize information in a timely fashion. 
 
-3. Say, for example, you have six or seven microservices for an application to run. 
+🔰 3. Say, for example, you have six or seven microservices for an application to run. 
 If you place them in separate containers, this would inevitably create obstacles for communication. 
 
-4. Orchestration would help in such a situation by enabling all services in individual containers 
+🔰 4. Orchestration would help in such a situation by enabling all services in individual containers 
 to work seamlessly to accomplish a single goal. 
 
-5. Benefits:
+🔰5. Benefits:
 
 --->Kubernetes supports a wide variety of workloads, programming languages and frameworks, 
 enabling stateless, stateful, and data-processing workloads.
@@ -23,9 +23,9 @@ enabling stateless, stateful, and data-processing workloads.
 
 --->With Kubernetes, users can scale resources not only vertically but also horizontally that too easily and quickly.
 
-6.1 A replication controller is referred to as RC in short. It is a wrapper on a pod.
+🔰 6.1 A replication controller is referred to as RC in short. It is a wrapper on a pod.
 This provides additional functionality to the pods, which offers replicas. 
---->Replica Set, on the other hand, is referred to as rs in short. It is told as the next-generation replication controller. 
+🔰7. Replica Set, on the other hand, is referred to as rs in short. It is told as the next-generation replication controller. 
 
 --->This kind of support has some selector types and supports the equality-based and the set-based selectors. 
 
@@ -36,3 +36,21 @@ This provides additional functionality to the pods, which offers replicas.
 --->The set-based selector is an advanced concept and more human-readable, and can handle more operation easily.
 
 --->Set based searching is the newer approach used by Replica Set. 
+
+🔰8. RC(Replication Controller) is a resource or one of the feature in K8S to scale-in scale-out pods according to our customization and requirement. 
+
+🔰9. If the pod terminates then RC launches same replica with same tag of all the pods. 
+
+🔰10. It uses current and desired stated to maintain the desired state.
+----> if current < desired, scale-out happen
+----> if current > desired, then scale-in happen 
+(incase of load) 
+🔰11. Replica can be defined as Launching of Mirror image of pods in case of K8S. 
+
+🔰12. Create and apply are the keyword to run code in K8S. In create, we cannot run edited and appended code. We can use it once.
+
+🔰13. In apply, we can run edited and appended code. 
+
+🔰14. Labels are the tags. 
+
+🔰15. Labels are used by RC to launch replicas of pods with the help of template of pods.
