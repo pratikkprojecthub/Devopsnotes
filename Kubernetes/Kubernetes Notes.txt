@@ -23,7 +23,10 @@ enabling stateless, stateful, and data-processing workloads.
 
 --->With Kubernetes, users can scale resources not only vertically but also horizontally that too easily and quickly.
 
-🔰 6.1 A replication controller is referred to as RC in short. It is a wrapper on a pod.
+🔰6. A node is the smallest fundamental unit of computing hardware. It represents a single machine in a cluster, 
+which could be a physical machine in a data center.The master in Kubernetes controls the nodes that have containers. 
+
+🔰6.1 A replication controller is referred to as RC in short. It is a wrapper on a pod.
 This provides additional functionality to the pods, which offers replicas. 
 🔰7. Replica Set, on the other hand, is referred to as rs in short. It is told as the next-generation replication controller. 
 
