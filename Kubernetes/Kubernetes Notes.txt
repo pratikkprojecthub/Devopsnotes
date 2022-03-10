@@ -57,3 +57,9 @@ This provides additional functionality to the pods, which offers replicas.
 🔰14. Labels are the tags. 
 
 🔰15. Labels are used by RC to launch replicas of pods with the help of template of pods.
+
+🔰16. Namespaces are used for dividing cluster resources between multiple users.
+------------> the initial namespaces from which Kubernetes starts:
+Default
+Kube – system
+Kube – public
