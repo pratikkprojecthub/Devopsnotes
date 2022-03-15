@@ -63,3 +63,5 @@ This provides additional functionality to the pods, which offers replicas.
 Default
 Kube – system
 Kube – public
+
+🔰17. Kube-proxy is an implementation of a load balancer and network proxy used to support service abstraction with other networking operations. Kube-proxy is responsible for directing traffic to the right container based on IP and the port number of incoming requests.
