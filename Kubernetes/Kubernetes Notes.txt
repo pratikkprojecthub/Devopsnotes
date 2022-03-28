@@ -67,8 +67,17 @@ Kube – public
 
 🔰17. Kube-proxy is an implementation of a load balancer and network proxy used to support service abstraction with other networking operations. Kube-proxy is responsible for directing traffic to the right container based on IP and the port number of incoming requests.
 
-🔰 18. 
+🔰 18. A Kubernetes service is a logical abstraction for a deployed group of pods in a cluster (which all perform the same function).
+------------> ClusterIP. Exposes a service which is only accessible from within the cluster.
+------------> NodePort. Exposes a service via a static port on each node’s IP.
+------------> LoadBalancer. Exposes the service via the cloud provider’s load balancer.
+------------> ExternalName. Maps a service to a predefined externalName field by returning a value for the CNAME record.
 
-🔰 19. The Kubernetes API is the front end of the Kubernetes control plane and is how users interact with their Kubernetes cluster. The API (application programming interface) server determines if a request is valid and then processes it.
+🔰 19. In Kubernetes, a deployment is a method of launching a pod with containerized applications and ensuring that the necessary number of replicas is always running on the cluster.
+
+On the other hand, a service is responsible for exposing an interface to those pods, which enables network access from either within the cluster or between external processes and the service.
+
+🔰 20. The Kubernetes API is the front end of the Kubernetes control plane and is how users interact with their Kubernetes cluster. The API (application programming interface) server determines if a request is valid and then processes it.
 
 🔰 The Kubernetes API lets you query and manipulate the state of objects in Kubernetes
+
