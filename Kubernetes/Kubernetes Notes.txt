@@ -23,8 +23,9 @@ enabling stateless, stateful, and data-processing workloads.
 
 --->With Kubernetes, users can scale resources not only vertically but also horizontally that too easily and quickly.
 
-🔰6. A node is the smallest fundamental unit of computing hardware. It represents a single machine in a cluster, 
-which could be a physical machine in a data center.The master in Kubernetes controls the nodes that have containers. 
+🔰6.  A node is the smallest fundamental unit of computing hardware. It represents a single machine in a cluster, 
+which could be a physical machine in a data center or a virtual machine from a cloud provider. 
+Each machine can substitute any other machine in a Kubernetes cluster. The master in Kubernetes controls the nodes that have containers.
 
 🔰6.1 A replication controller is referred to as RC in short. It is a wrapper on a pod.
 This provides additional functionality to the pods, which offers replicas. 
@@ -66,4 +67,8 @@ Kube – public
 
 🔰17. Kube-proxy is an implementation of a load balancer and network proxy used to support service abstraction with other networking operations. Kube-proxy is responsible for directing traffic to the right container based on IP and the port number of incoming requests.
 
-🔰 18. A node is the smallest fundamental unit of computing hardware. It represents a single machine in a cluster, which could be a physical machine in a data center or a virtual machine from a cloud provider. Each machine can substitute any other machine in a Kubernetes cluster. The master in Kubernetes controls the nodes that have containers. 
+🔰 18. 
+
+🔰 19. The Kubernetes API is the front end of the Kubernetes control plane and is how users interact with their Kubernetes cluster. The API (application programming interface) server determines if a request is valid and then processes it.
+
+🔰 The Kubernetes API lets you query and manipulate the state of objects in Kubernetes
