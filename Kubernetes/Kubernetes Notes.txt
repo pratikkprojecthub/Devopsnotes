@@ -91,3 +91,5 @@ the same pod as if they were on the same machine while at the same time maintain
 Kube-apiserver: Master API service which acts as an entry point to K8 cluster.
 Kube-scheduler: Schedule PODs according to available resources on executor nodes.
 Kube-controller-manager:  is a control loop that watches the shared state of the cluster through the apiserver and makes changes attempting to move the current state towards the desired stable state
+
+🔰 24. A Heapster is a metrics collection and performance monitoring system for data that are collected by the Kublet.
