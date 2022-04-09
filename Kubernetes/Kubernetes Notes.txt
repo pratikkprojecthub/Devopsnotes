@@ -93,3 +93,4 @@ Kube-scheduler: Schedule PODs according to available resources on executor nodes
 Kube-controller-manager:  is a control loop that watches the shared state of the cluster through the apiserver and makes changes attempting to move the current state towards the desired stable state
 
 🔰 24. A Heapster is a metrics collection and performance monitoring system for data that are collected by the Kublet.
+🔰 25. Daemon sets are a set of pods that runs on a host. They are used for host layers attributes like monitoring network or simple network.
