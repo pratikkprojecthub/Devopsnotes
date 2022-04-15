@@ -94,3 +94,4 @@ Kube-controller-manager:  is a control loop that watches the shared state of the
 
 🔰 24. A Heapster is a metrics collection and performance monitoring system for data that are collected by the Kublet.
 🔰 25. Daemon sets are a set of pods that runs on a host. They are used for host layers attributes like monitoring network or simple network.
+🔰 26. Etcd is written in Go programming language and is a distributed key-value store used for coordinating distributed work. So, Etcd stores the configuration data of the Kubernetes cluster, representing the state of the cluster at any given point in time.
