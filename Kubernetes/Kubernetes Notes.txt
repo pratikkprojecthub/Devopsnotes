@@ -99,3 +99,8 @@ Kube-controller-manager:  is a control loop that watches the shared state of the
 🔰 27. Ingress network is a collection of rules that acts as an entry point to the Kubernetes cluster. This allows inbound connections, which can be configured to give services externally through reachable URLs, load balance traffic, or by offering name-based virtual hosting. 
 
 🔰 28. So, Ingress is an API object that manages external access to the services in a cluster, usually by HTTP and is the most powerful way of exposing service.
+🔰 29.  Minions in the Kubernetes cluster: 
+They are components of the master node.
+They are the work-horse / worker node of the cluster.[Ans]
+They are monitoring engine used widely in kubernetes.
+They are docker container service.
